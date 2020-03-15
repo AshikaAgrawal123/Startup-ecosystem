@@ -1,0 +1,46 @@
+.card-user {
+  .image {
+    height: 130px;
+
+    img {
+      border-radius: 12px;
+    }
+  }
+
+  .author {
+    text-align: center;
+    text-transform: none;
+
+    a + p.description {
+      margin-top: -7px;
+    }
+  }
+
+  p.description {
+    font-weight: 500;
+  }
+
+  .card-body {
+    min-height: 70px;
+  }
+
+  hr {
+    margin: 5px 15px 15px;
+  }
+
+  .card-body + .card-footer {
+    padding-top: 0;
+  }
+
+  .card-footer {
+    h5 {
+      font-size: 1.25em;
+      margin-bottom: 0;
+    }
+  }
+
+  .button-container {
+    margin-bottom: 6px;
+    text-align: center;
+  }
+}
